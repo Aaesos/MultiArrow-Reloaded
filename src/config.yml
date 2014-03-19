@@ -1,0 +1,39 @@
+# Uncomment arrow types to disable them.
+removed-arrows:
+#   - teleport
+#   - poison
+#   - explosive
+#   - compression
+#   - lightning
+#   - razor
+#   - slow
+#   - fire
+#   - net
+#   - piercing
+#   - gravity
+
+# Change these to whatever you feel is good.
+# Durations is in seconds.
+arrow-durations:
+    poison-duration: 10
+    fire-duration: 10
+    slow-duration: 10
+    net-duration: 10
+
+arrow-cooldowns:
+    teleport-cooldown: 15
+    poison-cooldown: 15
+    explosive-cooldown: 15
+    compression-cooldown: 15
+    lightning-cooldown: 15
+    razor-cooldown: 15
+    slow-cooldown: 15
+    fire-cooldown: 15
+    net-cooldown: 15
+    piercing-cooldown: 15
+    gravity-cooldown: 15
+
+# Power levels is PotionPower - 1.
+arrow-power:
+    poison-power: 1
+    slow-power: 4

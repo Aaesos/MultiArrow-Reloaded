@@ -1,0 +1,24 @@
+name: MoArrowsReloaded
+main: ca.aaesos.MoArrowsReloaded.MoArrowsReloaded
+author: Aaesos
+version: 1.0.0
+softdepend: [Factions,WorldGuard,HealthBar]
+
+commands:
+    moarrows:
+        description: The main MoArrows Reloaded command.
+        alias: [ma,mar]
+        usage: /moarrows <list|help>
+        permission: moArrowsReloaded.command
+        permission-message: You do not have access to this command.
+        
+permissions:
+    moArrowsReloaded.use.all:
+        default: false
+        description: Allows use of all arrow types.
+    moArrowsReloaded.reload:
+        default: op
+        description: Reloads the config file.
+    moArrowsReloaded.help:
+        default: true
+        description: Allows viewing of MoArrows Reloaded help.
